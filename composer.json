@@ -1,0 +1,14 @@
+{
+    "name": "bishal/cards_question",
+    "description": "It is test",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Bishal Bhattarai",
+            "email": "bhattaraibishal50@gmail.com"
+        }
+    ],
+    "require": {
+        "petrknap/php-singleton": "^1.0"
+    }
+}

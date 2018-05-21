@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple Card App</title>
+</head>
+<body>
+
+	<h1>(Test for: PHP basics, Code reading skill, Singleton, Javascript)</h1>
+	Tasks:
+	<ol>
+		<h3>
+			<li>
+				Fix the code (Insert required syntax) so that index.php will be served on your local webserver without error. (10 points)
+			</li>
+		</h3>
+
+		<strong>Result:</strong>
+		<ul>
+			<li>You will be able to see 3 panels with a deck of 52 cards each.</li>
+			<li>The first panel will be a fresh deck (let's call this firstDeck).</li>
+			<li>The second panel will be the firstDeck after a shuffle (Still firstDeck).</li>
+			<li>The third panel however will contain a new instance of Deck class and will show a fresh deck (let's call this secondDeck)</li>
+		</ul>
+
+
+
+		<h3>
+			<li>
+				Change the code so that any new instance of the class Deck returns the last status of the deck (Simulate the same deck being passed over each time you create a new Deck instance). (40 points)
+			</li>
+		</h3>
+
+
+		<strong>Result:</strong>
+		<ul>
+			<li>You will be able to see 3 panels with a deck of 52 cards each.</li>
+			<li>The first panel will be an unshuffled firstDeck.</li>
+			<li>The second panel will be the firstDeck after a shuffle.</li>
+			<li>The third panel will be secondDeck with the same state of the firstDeck shown in the second panel.</li>
+		</ul>
+
+		<h3>
+			<li>
+				Add javascript and make that shuffle button working. (50 points)
+			</li>
+		</h3>
+
+
+		<strong>Result:</strong>
+		<ul>
+			<li>Each time you click the shuffle button the second panel and third panel will show the deck after a re-shuffle.</li>
+			<li>Both panel will show the same order of cards as you're simulating the same deck.</li>
+		</ul>
+	</ol>
+</body>
+</html>
