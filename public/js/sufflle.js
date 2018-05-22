@@ -5,7 +5,6 @@ class Sufflle {
 	constructor(){
 		this.suffleBtn = document.getElementById("shuffleBtn");
 	    this.suffleDeckPannel = document.getElementById("suffleDeckPannel");
-	    this.newDeckPannel = document.getElementById("newDeckPannel");
 	    this.event();
 	}
 
@@ -14,8 +13,9 @@ class Sufflle {
    	}
    	action(){
 		console.log("sufflebtn clicked");
-		var location = "./public/" ;
+		var location = this.suffleDeckPannel;
 		window.location.reload(true);
+		
 	}
    	
 }
